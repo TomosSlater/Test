@@ -1,0 +1,1 @@
+Some exercises from the workshop - including adding a basic calculator, and the ability to read in files with set commands
