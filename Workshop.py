@@ -7,6 +7,8 @@ def calculate(operator, num_1, num_2):
         return int(num_1) * int(num_2)
     if operator ==  '/':
         return float(num_1) / float(num_2)
+    if operator == '^':
+        return int(num_1) ^ int(num_2)
 
 def calculate_and_print(self, operator, num_1, num_2):
     print(self.calculate(operator, num_1, num_2))
